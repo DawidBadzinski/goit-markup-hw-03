@@ -67,6 +67,10 @@ ul {
   display: flex;
 }
 
+.header-container {
+  display: flex;
+}
+
 nav {
   align-items: center;
 }

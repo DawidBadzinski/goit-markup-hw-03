@@ -38,6 +38,20 @@ ul {
   margin-bottom: 16px;
 }
 
+.logo-header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+  padding: 24px 0;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .studio {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -48,8 +62,9 @@ ul {
   color: #2e2f42;
 }
 
-.right-gap {
+.menu {
   gap: 40px;
+  display: flex;
 }
 
 nav {
@@ -59,6 +74,7 @@ nav {
 .header {
   padding: 0 15px;
   border-bottom: 1px solid #e7e9fc;
+  display: flex;
 }
 
 .link-text {

@@ -34,6 +34,8 @@ ul {
   color: #4d5ae5;
   margin-right: 76px;
   padding: 24px 0;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .studio {
@@ -104,6 +106,7 @@ nav {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
 }
 
 .button {
@@ -216,6 +219,13 @@ button:focus {
   text-align: center;
 }
 
+.box {
+  background-color: #ffffff;
+  list-style-type: none;
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
+}
+
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -293,11 +303,4 @@ button:focus {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-}
-
-.box {
-  background-color: #ffffff;
-  list-style-type: none;
-  border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
 }

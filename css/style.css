@@ -84,6 +84,7 @@ nav {
   text-decoration: none;
   color: #2e2f42;
   padding: 24px 0;
+  display: flex;
 }
 
 .address {
